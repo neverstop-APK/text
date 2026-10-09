@@ -1,0 +1,17 @@
+
+> exam-clock@1.0.0 test
+> node --test tests/exam-clock.test.js
+
+✔ buildCustomExamSections keeps non-counted sections as zero-duration placeholders (1.1826ms)
+✔ buildCustomExamSections handles all sections excluded from total time (0.2439ms)
+✔ formatTime formats seconds and clamps negative input (0.1163ms)
+✔ calculateEndTime handles normal and cross-midnight durations (0.1202ms)
+✔ validateAndFormatTime validates and normalizes supported inputs (0.2247ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 65.4542
